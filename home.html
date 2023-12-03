@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>番茄小说网</title>
+    <link rel="stylesheet" href="./font/fontStyle/iconfont.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-item">
+            <div class="header-left">
+                <span class="iconfont icon-sousuo"></span>
+                <input class="inpbox" type="text" placeholder="输入关键词" onclick="onsearchChang()"/>
+            </div>
+            <div>
+                <div class="gmail">
+                    <span class="iconfont icon-youxi" style="font-size: 22px;"></span>
+                    <span style="font-size: 12px ;">小游戏</span>
+                </div>
+            </div>
+        </div>
+        <div class="nav-container">
+            <ul class="nav-list">
+                <li class="nav-item" onclick="showTab(0)">关注</li>
+                <li class="nav-item active" onclick="showTab(1)">推荐</li>
+                <li class="nav-item" onclick="showTab(2)">经典</li>
+                <li class="nav-item" onclick="showTab(3)">知识</li>
+                <li class="nav-item" onclick="showTab(4)">关注</li>
+                <li class="nav-item" onclick="showTab(5)">推荐</li>
+                <li class="nav-item" onclick="showTab(6)">经典</li>
+                <li class="nav-item" onclick="showTab(7)">知识</li>
+                <li class="nav-item" onclick="showTab(8)">关注</li>
+                <li class="nav-item" onclick="showTab(9)">推荐</li>
+                <li class="nav-item" onclick="showTab(10)">经典</li>
+                <li class="nav-item" onclick="showTab(11)">知识</li>
+            </ul>
+        </div>
+    </header>
+  
+    <section>
+       <div>
+        <div class="center">
+            <div class="center-hender">
+                <div class="center-left">
+                    <span style="font-size: 4.1333vw;font-weight: 600;">排行榜</span>
+                    <span class="iconfont icon-xiangyoujiantou"></span>
+                </div>
+                <div class="center-right">
+                    <span style="font-size: 3vw;">换一换</span>
+                    <span class="iconfont icon-huanyihuan"></span>
+                </div>
+            </div>
+            <div class="muen">
+                <ul class="muen-item">
+                    <li class="muenactive">推荐板</li>
+                    <li>推荐板</li>
+                    <li>推荐板</li>
+                    <li>推荐板</li>
+                    <li>推荐板</li>
+                    <li>推荐板</li>
+                    <li>推荐板</li>
+                    <li>推荐板</li>
+                    <li>推荐板</li>
+                    <li>推荐板</li>
+                </ul>
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide blue-slide">
+                        <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                            swiper-animate-delay="0.3s">
+                            <ul class="swiperList">
+                                <li>
+                                    <div class="li-list">
+                                        <img src="./images/book.jpg" alt="" srcset="">
+                                        <div class="font-item">
+                                            <span>
+                                                <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                            </span>
+                                            <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                    style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                        </div>
+                                    </div>
+                                    <div  class="li-list">
+                                        <img src="./images/book.jpg" alt="" srcset="">
+                                        <div class="font-item">
+                                            <span>
+                                                <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                            </span>
+                                            <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                    style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li> <div class="li-list">
+                                    <img src="./images/book.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div>
+                                <div  class="li-list">
+                                    <img src="./images/book.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div></li>
+                                <li> <div class="li-list">
+                                    <img src="./images/book.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div>
+                                <div  class="li-list">
+                                    <img src="./images/book.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div></li>
+                                <li> <div class="li-list">
+                                    <img src="./images/book.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div>
+                                <div  class="li-list">
+                                    <img src="./images/book.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide red-slide">
+                        <div class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s"
+                            swiper-animate-delay="0.3s">
+                        
+                        <ul class="swiperList">
+                                <li>
+                                    <div class="li-list">
+                                        <img src="./images/修仙梦.jpg" alt="" srcset="">
+                                        <div class="font-item">
+                                            <span>
+                                                <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                            </span>
+                                            <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                    style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                        </div>
+                                    </div>
+                                    <div  class="li-list">
+                                        <img src="./images/修仙梦.jpg" alt="" srcset="">
+                                        <div class="font-item">
+                                            <span>
+                                                <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                            </span>
+                                            <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                    style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li> <div class="li-list">
+                                    <img src="./images/修仙梦.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div>
+                                <div  class="li-list">
+                                    <img src="./images/修仙梦.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div></li>
+                                <li> <div class="li-list">
+                                    <img src="./images/修仙梦.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div>
+                                <div  class="li-list">
+                                    <img src="./images/修仙梦.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div></li>
+                                <li> <div class="li-list">
+                                    <img src="./images/修仙梦.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div>
+                                <div  class="li-list">
+                                    <img src="./images/修仙梦.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide orange-slide">
+                        <div class="ani" swiper-animate-effect="shake" swiper-animate-duration="1.5s"
+                            swiper-animate-delay="0s">
+                            <ul class="swiperList">
+                                <li>
+                                    <div class="li-list">
+                                        <img src="./images/修真历程.jpg" alt="" srcset="">
+                                        <div class="font-item">
+                                            <span>
+                                                <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                            </span>
+                                            <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                    style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                        </div>
+                                    </div>
+                                    <div  class="li-list">
+                                        <img src="./images/修真历程.jpg" alt="" srcset="">
+                                        <div class="font-item">
+                                            <span>
+                                                <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                            </span>
+                                            <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                    style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li> <div class="li-list">
+                                    <img src="./images/修真历程.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div>
+                                <div  class="li-list">
+                                    <img src="./images/修真历程.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div></li>
+                                <li> <div class="li-list">
+                                    <img src="./images/修真历程.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div>
+                                <div  class="li-list">
+                                    <img src="./images/修真历程.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div></li>
+                                <li> <div class="li-list">
+                                    <img src="./images/修真历程.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div>
+                                <div  class="li-list">
+                                    <img src="./images/修真历程.jpg" alt="" srcset="">
+                                    <div class="font-item">
+                                        <span>
+                                            <font style="color: rgb(200, 174, 122);">1</font>&nbsp;&nbsp;天渊
+                                        </span>
+                                        <span style="font-size: .7rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+                                                style="color: rgb(200, 174, 122);">架空 ·</font> 1055万热度</span>
+                                    </div>
+                                </div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <div class="bookgc">
+        <div class="bookgc-center">
+            <div class="banv">
+                <span style="font-size: 1.16rem;">书荒广场</span>
+                <span style="font-size:1.14rem">更多></span>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div  class="swiper-slide orange-slide">
+                        <div class="ani" swiper-animate-effect="shake" swiper-animate-duration="1.5s"
+                        swiper-animate-delay="0s">
+                         <div class="banv-item">
+                             <span>#</span>
+                             <span>番茄9.5分以上的高质量小说</span>
+                         </div>
+                         <div class="banv-item">
+                             <span>#</span>
+                             <span>番茄9.5分以上的高质量小说</span>
+                         </div>
+                         <div class="banv-item">
+                             <span>#</span>
+                             <span>番茄9.5分以上的高质量小说</span>
+                         </div>
+                        </div>
+                     </div>
+
+                     <div  class="swiper-slide orange-slide">
+                        <div class="ani" swiper-animate-effect="shake" swiper-animate-duration="1.5s"
+                        swiper-animate-delay="0s">
+                         <div class="banv-item">
+                             <span>#</span>
+                             <span>番茄9.5分以上的高质量小说</span>
+                         </div>
+                         <div class="banv-item">
+                             <span>#</span>
+                             <span>番茄9.5分以上的高质量小说</span>
+                         </div>
+                         <div class="banv-item">
+                             <span>#</span>
+                             <span>番茄9.5分以上的高质量小说</span>
+                         </div>
+                        </div>
+                     </div>
+
+                     <div  class="swiper-slide orange-slide">
+                        <div class="ani" swiper-animate-effect="shake" swiper-animate-duration="1.5s"
+                        swiper-animate-delay="0s">
+                         <div class="banv-item">
+                             <span>#</span>
+                             <span>番茄9.5分以上的高质量小说</span>
+                         </div>
+                         <div class="banv-item">
+                             <span>#</span>
+                             <span>番茄9.5分以上的高质量小说</span>
+                         </div>
+                         <div class="banv-item">
+                             <span>#</span>
+                             <span>番茄9.5分以上的高质量小说</span>
+                         </div>
+                        </div>
+                     </div>
+
+                </div>
+            </div>
+            
+            
+           
+           
+        </div>
+       </div>
+       <div class="seclect-nav">
+        <ul>
+            <li>
+                <img src="./images/top1.gif"/>
+            <span>书摘</span>
+            </li>
+            <li>
+                <img src="./images/top2.gif"/>
+            <span>完本</span>
+            </li>
+            <li>
+                <img src="./images/top3.gif"/>
+            <span>新书</span>
+            </li>
+            <li>
+                <img src="./images/top4.gif"/>
+            <span>短篇</span>
+            </li>
+            <li><img src="./images/top1.gif"/>
+                <span>书摘</span></li>
+            <li>
+                <img src="./images/top2.gif"/>
+                <span>完本</span>
+            </li>
+            <li>
+                <img src="./images/top3.gif"/>
+                <span>新书</span>
+            </li>
+            <li>
+                <img src="./images/top4.gif"/>
+            <span>短篇</span>
+            </li>
+        </ul>
+       </div>
+       <div>
+        <div class="waterfall">
+            <div class="item item1">
+                <img src="./images/55_03.gif" alt="">
+                <p>秦淮如的母性</p>
+                <p>465.6万人观看</p>
+            </div>
+            <div class="item item2">
+                <img src="./images/55_07.gif" alt="">
+                <p>棺香美人</p>
+                <p>我出生的时候，江水上涨，冲了一口棺材进了我家。十五...
+                    根据《修罗武神》推荐</p>
+               
+            </div>
+            <div class="item item3">
+                <img src="./images/55_03.gif" alt="">
+                <p>秦淮如的母性</p>
+                <p>465.6万人观看</p>
+            </div>
+            <div class="item item4">
+                <img src="./images/55_07.gif" alt="">
+                <p>棺香美人</p>
+                <p>我出生的时候，江水上涨，冲了一口棺材进了我家。十五...
+                    根据《修罗武神》推荐</p>
+                
+            </div>
+            <div class="item item5">
+                <img src="./images/55_03.gif" alt="">
+                <p>秦淮如的母性</p>
+                <p>465.6万人观看</p>
+            </div>
+            <div class="item item6">
+                <img src="./images/55_07.gif" alt="">
+                <p>棺香美人</p>
+                <p>我出生的时候，江水上涨，冲了一口棺材进了我家。十五...
+                    根据《修罗武神》推荐</p>
+                
+            </div>
+            <div class="item item7">
+                <img src="./images/55_03.gif" alt="">
+                <p>秦淮如的母性</p>
+                <p>465.6万人观看</p>
+            </div>
+            <div class="item item8">
+                <img src="./images/55_07.gif" alt="">
+                <p>棺香美人</p>
+                <p>我出生的时候，江水上涨，冲了一口棺材进了我家。十五...
+                    根据《修罗武神》推荐</p>
+              
+            </div>
+            <div class="item item9">
+                <img src="./images/55_03.gif" alt="">
+                <p>秦淮如的母性</p>
+                <p>465.6万人观看</p>
+            </div>
+            <div class="item item10">
+                <img src="./images/55_07.gif" alt="">
+                <p>棺香美人</p>
+                <p>我出生的时候，江水上涨，冲了一口棺材进了我家。十五...
+                    根据《修罗武神》推荐</p>
+              
+            </div>
+            <!-- 添加更多项目 -->
+          </div>
+       </div>
+    </section>
+    
+    <footer>
+        <div class="footer-item active">
+            <span class="iconfont icon-shucheng"></span>
+            <p>书城</p>
+        </div>
+        <div class="footer-item">
+            <span class="iconfont icon-fenlei" style="font-size: 1.525rem;"></span>
+            <p>分类</p>
+        </div>
+        <div class="footer-item">
+            <span class="iconfont icon-fuli" style="font-size: 1.525rem;"></span>
+            <p>福利</p>
+        </div>
+        <div class="footer-item">
+            <span class="iconfont icon-yuedu" style="font-size: 1.225rem;"></span>
+            <p>书架</p>
+        </div>
+        <div class="footer-item">
+            <span class="iconfont icon-wodedamaijihuo" style="font-size: 1.225rem;"></span>
+            <p>我的</p>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            on: {
+                init: function () {
+                    swiperAnimateCache(this); //隐藏动画元素 
+                    this.emit('slideChangeTransitionEnd');//在初始化时触发一次slideChangeTransitionEnd事件
+                },
+                slideChangeTransitionEnd: function () {
+                    swiperAnimate(this); //每个slide切换结束时运行当前slide动画
+                    this.slides.eq(this.activeIndex).find('.ani').removeClass('ani');//动画只展示一次
+                }
+            }
+        });
+        function onsearchChang(){
+            console.log('点击了')
+            let a = document.createElement('a');
+		a.setAttribute('href', "/Search.html");
+		document.body.appendChild(a);
+		a.click();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body html head{
+	height: 164vh;
+    overflow: auto;
+}
+body {
+	font-size: 14px;
+	background-color: #eee;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	padding-top: 20px;
+	height: 60px;
+}
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.head-list {
+	flex: 1;
+	margin-right: 30px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.nav-item {
+	font-weight: bold;
+	color: #4e4d4d;
+	text-align: center;
+}
+
+.head-list > .active {
+	font-size: 18px;
+	color: #000;
+}
+.sousuo sapn {
+	font-size: 24px;
+}
+
+.swiper-item {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.muen {
+	text-align: center;
+	height: calc(100vh - 106px);
+	overflow-y: scroll;
+}
+.muen::-webkit-scrollbar {
+	display: none;
+}
+.muen > li {
+	padding: 20px 10px;
+}
+.muen > .active {
+	color: #f64a4a;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.info {
+	flex: 1;
+	height: calc(100vh - 106px);
+	overflow-y: scroll;
+	background-color: #fff;
+	border-radius: 10px 10px 0 0;
+	padding: 0 10px;
+	overflow-y: scroll;
+}
+.info > li > .title {
+	padding: 15px 0;
+	color: #4e4d4d;
+}
+.lableBox {
+	padding: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.lable {
+	width: 30%;
+	text-align: center;
+	margin-right: 3%;
+	margin-bottom: 10px;
+	line-height: 30px;
+	background-color: #e9e9e9;
+	border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+	z-index: 999;
+	background-color: #a4aaa3;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer>.active{
+     color: aqua;
+}
